@@ -55,7 +55,7 @@ You can get the BERT-base-uncased model <a href="https://storage.googleapis.com/
 
 ![Accuracy](Images/accuracy.jpg)
 
-![Hamming Loss](Images/loss.jpg)
+![Hamming Loss](Images/loss1.jpg)
 
 
 
