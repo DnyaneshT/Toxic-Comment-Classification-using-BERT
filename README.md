@@ -48,15 +48,28 @@ The Bert-Base model has 12 attention layers and all text will be converted to lo
 
 You can get the BERT-base-uncased model <a href="https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip">here.</a>
 
-
 **Analysis:**<br>
 ![](Images/loss.jpg)
+**Accuracy:**<br>
+![](Images/accuracy.jpg)
+**Hamming Loss:**<br>
+![](Images/loss1.jpg)
 
 
-![Accuracy](Images/accuracy.jpg)
+**-------------------------------------------------my-bert-model.ipynb-------------------------------------------------**
 
-![Hamming Loss](Images/loss1.jpg)
+1) Open the my-bert-model.ipynb in google colaboratory.
+2) Change the runtime to GPU
+3) Mount the google drive. (check the left-hand side)
+4) Download the pretrained <a href="https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip">BERT model</a>.
+    Unzip and upload the 'uncased_L-12_H-768_A-12' folder in your google drive.
+5) Download the <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data">dataset</a>.
+    Unzip and upload the `test.csv`, `test_labels.csv` and `train.csv` files in a new `dataset` folder.
+Upload the dataset folder in the google drive.
+6) Execute each cell.
 
 
-
-
+**-------------------------------------------------Analysis.ipynb-------------------------------------------------**
+1) Open the analysis.ipynb in google colaboratory.
+2) Mount the google drive(if unmounted)
+3) Execute each cell.
