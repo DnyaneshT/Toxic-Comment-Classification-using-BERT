@@ -50,11 +50,15 @@ You can get the BERT-base-uncased model <a href="https://storage.googleapis.com/
 
 **Analysis:**<br>
 ![](Images/loss.jpg)
+<br>
+
 **Accuracy:**<br>
 ![](Images/accuracy.jpg)
+<br>
+
 **Hamming Loss:**<br>
 ![](Images/loss1.jpg)
-
+<br>
 
 **-------------------------------------------------my-bert-model.ipynb-------------------------------------------------**
 
