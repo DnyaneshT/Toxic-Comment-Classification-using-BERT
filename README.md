@@ -1,5 +1,5 @@
 # Toxic-Comment-Classification-using-BERT
-Built a text classification model using pretrained BERT base-uncased model
+Multilabel Text Classification model using pretrained BERT base-uncased model
 
 **Problem Statement:** <br>
 Comment classification using BERT contextual model. Given a dataset of comments, the task is to classify them based upon the context of the words. There are 6 classes; toxic, severe_toxic, obscene, threat, identity_hate.
