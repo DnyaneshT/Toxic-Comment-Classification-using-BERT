@@ -2,7 +2,7 @@
 Multilabel Text Classification model using pretrained BERT base-uncased model
 
 **Problem Statement:** <br>
-Comment classification using BERT contextual model. Given a dataset of comments, the task is to classify them based upon the context of the words. There are 6 classes; toxic, severe_toxic, obscene, threat, identity_hate.
+Comment classification using BERT contextual model. Given a dataset of comments, the task is to classify them based upon the context of the words. There are 6 classes; toxic, severe_toxic, obscene, threat, insult, identity_hate.
 
 **BERT (Bidirectional Encoder Representations from Transformers):**<br>
 BERT is the first deeply bidirectional, unsupervised language representation, pre-trained using only a plain text corpus. BERT makes use of Transformer, an attention mechanism that learns contextual relations between words (or sub-words) in a text. In its vanilla form, Transformer includes two separate mechanisms — an encoder that reads the text input and a decoder that produces a prediction for the task.
